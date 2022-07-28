@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <div class="row">
+        <!--  -->
+        <div class="col-1 hour-col">
+          <div class="row hour hour-09"><span >9am</span></div>
+          <div class="row hour hour-10"><span>10am</span></div>
+          <div class="row hour hour-11"><span>11am</span></div>
+          <div class="row hour hour-12"><span>12pm</span></div>
+          <div class="row hour hour-13"><span>1pm</span></div>
+          <div class="row hour hour-14"><span>2pm</span></div>
+          <div class="row hour hour-15"><span>3pm</span></div>
+          <div class="row hour hour-16"><span>4pm</span></div>
+          <div class="row hour hour-17"><span>5pm</span></div>
+         
+        </div>
+        <!-- textboxes -->
+        <div class="col-11 time-col">
+          <div class="row hour-09"><textarea class= "timeblock 09" id="09"></textarea></div>
+          <div class="row hour-10"><textarea class= "timeblock 10" id="10"></textarea></div>
+          <div class="row hour-11"><textarea class= "timeblock 11" id="11"></textarea></div>
+          <div class="row hour-12"><textarea class= "timeblock 12" id="12"></textarea></div>
+          <div class="row hour-13"><textarea class= "timeblock 13" id="13"></textarea></div>
+          <div class="row hour-14"><textarea class= "timeblock 14" id="14"></textarea></div>
+          <div class="row hour-15"><textarea class= "timeblock 15" id="15"></textarea></div>
+          <div class="row hour-16"><textarea class= "timeblock 16" id="16"></textarea></div>
+          <div class="row hour-17"><textarea class= "timeblock 17" id="17"></textarea></div>
+          
+        </div>
+        <!-- save buttons -->
+        <div class="col-1 save-col">
+          <div class="row hour-09"><button class="saveBtn">Save</button></div>
+          <div class="row hour-10"><button class="saveBtn">Save</button></div>
+          <div class="row hour-11"><button class="saveBtn">Save</button></div>
+          <div class="row hour-12"><button class="saveBtn">Save</button></div>
+          <div class="row hour-13"><button class="saveBtn">Save</button></div>
+          <div class="row hour-14"><button class="saveBtn">Save</button></div>
+          <div class="row hour-15"><button class="saveBtn">Save</button></div>
+          <div class="row hour-16"><button class="saveBtn">Save</button></div>
+          <div class="row hour-17"><button class="saveBtn">Save</button></div>
+        
+        </div>
+      </div>
+     
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
