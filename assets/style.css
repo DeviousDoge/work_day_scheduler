@@ -76,3 +76,21 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+@media only screen and (max-width: 767px) {
+  .saveBtn span {
+    display:none;
+  }
+
+ .saveBtn:after {
+ content: 'S';
+ text-align: center;
+ font-size: 2rem;
+ }
+}
+
+@media only screen and (max-width: 475px){
+  .saveBtn:after {
+  color:#06aed5;
+  }
+}
