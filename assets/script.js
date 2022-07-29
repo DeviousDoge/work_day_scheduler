@@ -39,10 +39,10 @@ $('.timeblock').each(function () {
   } else if (currentHour>17) {
     $('.jumbotron').addClass('past');
   }
-  //if timeblock is in the past, set the disabled attribute to true
-  if($('.timeblock').hasClass('past')) {
-    $('.timeblock').attr('disabled', 'true');
-  };
+  // //if timeblock is in the past, set the disabled attribute to true
+  // if($('.timeblock').hasClass('past')) {
+  //   $('.timeblock').attr('disabled', 'true');
+  // };
   //save button event listener
   $(".saveBtn").click(function (event) {
     event.preventDefault();
